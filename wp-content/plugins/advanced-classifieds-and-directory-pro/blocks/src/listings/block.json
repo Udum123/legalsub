@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "acadp/listings",
+	"version": "2.0.0",
+	"title": "ACADP - Listings",
+	"category": "advanced-classifieds-and-directory-pro",
+	"keywords": [ "classifieds", "listings", "directory", "acadp" ],
+	"icon": "welcome-widgets-menus",
+	"description": "Display a list of ACADP Listings.",
+	"textdomain": "advanced-classifieds-and-directory-pro",
+	"editorScript": "file:./index.js"
+}

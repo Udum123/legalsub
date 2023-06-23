@@ -1,0 +1,620 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	Global
+*
+*--------------------------------------------------------------------------------------------*/
+.acadp-margin-bottom {
+	margin-bottom: 15px !important;
+}
+
+.acadp-no-margin {
+	margin: 0 !important;
+}
+
+.acadp-no-margin-left {
+	margin-left: 0 !important;
+}
+
+.acadp-no-padding {
+	padding: 0 !important;
+}
+
+.acadp-no-border {
+	border: 0 !important;
+}
+
+.acadp-vertical-middle {
+	vertical-align: middle !important;
+}
+
+.acadp img {
+	max-width: 100%;
+}
+
+.acadp-img-col {
+	width: 75px;
+}
+
+.acadp-divider {
+  height: 1px;
+  margin: 10px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.acadp-spacer {
+  margin: 10px 0;
+}
+
+.acadp-star {
+	padding-left: 5px;
+}
+
+.acadp-map {
+	width: 100%;
+}
+
+.acadp-map .media {
+	display: none;
+}
+
+.acadp-map .media-left img {
+	width: 64px;
+	max-width: inherit;
+}
+
+.acadp-map .gm-style-iw .media,
+.acadp-map .leaflet-popup .media {
+	display: block;
+}
+
+.acadp-map .leaflet-popup-content-wrapper {
+	border-radius: 3px;
+}
+
+.acadp-map .leaflet-popup-scrolled {
+	border-bottom: none;
+	border-top: none;
+}
+
+.acadp-map .leaflet-popup-scrolled .media {
+	padding-right: 10px;
+}
+
+.acadp-map img {
+	box-shadow: none !important;
+}
+
+.acadp-spinner {
+	display: block;	
+	min-width: 50px;
+	min-height: 50px;
+	margin: 0 auto;
+	background-image: url( '../images/spinner.gif' );
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.acadp-child-terms {
+	margin-top: 10px;
+}
+
+.acadp .wp-switch-editor {
+	margin: 5px 0 0 5px;
+}
+
+.acadp .mce-edit-area {
+	margin: 1px;
+}
+
+.acadp .has-error a {
+	color: inherit;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Custom Input UI: Range Field
+ *
+ *--------------------------------------------------------------------------------------------*/
+.acadp-range-slider {
+	position: relative;
+	display: inline-block;
+	width: 100%;	
+	margin-top: 24px;
+}
+
+.acadp-range-slider .acadp-range-value {
+	position: absolute;
+	top: -50%;
+}
+
+.acadp-range-slider .acadp-range-value span {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 24px;
+	left: 50%;
+	background: #03a9f4;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;	
+	text-align: center;
+	line-height: 24px;
+	transform: translate( -50%, 0 );	
+}
+
+.acadp-range-slider .acadp-range-value span:before {	
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: -1px;
+	border-top: 10px solid #03a9f4;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	content: "";	
+}
+
+.acadp-range-slider input[type=range] {
+	width: 100%;
+	margin: 20px 0;	
+	padding: 0;
+	border: none;
+	-webkit-appearance: none;	
+}
+
+.acadp-range-slider input[type=range]:focus {
+	outline: none;
+}
+
+.acadp-range-slider input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 4px;
+	background: #03a9f4;
+	border-radius: 25px;
+	cursor: pointer;
+	animate: 0.2s;	
+}
+
+.acadp-range-slider input[type=range]::-webkit-slider-thumb {
+	width: 20px;
+	height: 20px;	
+	margin-top: -8px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 4px 0 rgba( 0, 0, 0, 1 );
+	cursor: pointer;
+	-webkit-appearance: none;	
+}
+
+.acadp-range-slider input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #03a9f4;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Privacy Policy [GDPR]
+---------------------------------------------------------------------------------------------*/
+.acadp-privacy-wrapper { 
+	position: absolute;           
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 15px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #f9f9f9;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.acadp-privacy-wrapper-map {
+	background-image: url( '../images/placeholder-map.svg' );
+}
+
+.acadp-privacy-consent-block {
+	position: relative;
+	max-width: 320px;
+	margin: auto;
+	top: 50%;
+	opacity: 0.9;
+	transform: translateY( -50% );
+	-ms-transform: translateY(- 50% );
+	-webkit-transform: translateY( -50% );
+}
+
+.acadp-privacy-consent-message {
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 250px) {
+	.acadp-privacy-consent-block {
+		margin: 0;
+		font-size: 12px;               
+	}
+}
+
+/*---------------------------------------------------------------------------------------------
+	Login Form [inline]
+---------------------------------------------------------------------------------------------*/
+.acadp-login-form #loginform {
+    max-width: 320px;
+}
+
+.acadp-login-form .login-username label,
+.acadp-login-form .login-password label {
+    display: block;
+}
+
+.acadp-login-form  #user_login,
+.acadp-login-form  #user_pass {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Search Form [inline]
+---------------------------------------------------------------------------------------------*/
+.acadp-search-inline .row .form-group:nth-child(1) {
+	padding-left: 0;
+}
+
+.acadp-search-inline .row .form-group:nth-child(3) {
+	padding-right: 0;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Listings Page
+---------------------------------------------------------------------------------------------*/
+.acadp .acadp-responsive-container {
+	position: relative;
+	display: block;
+	padding-bottom: 56.25%;
+	width: 100%;
+	height: 0;
+	background: #f9f9f9;
+}
+
+.acadp .acadp-responsive-item,
+.acadp .acadp-responsive-container img {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;	
+}
+
+.acadp-listings .acadp-listings-title-block,
+.acadp-manage-listings .acadp-listings-title-block {
+	display: block;
+}
+
+.acadp-listings .acadp-listings-title-block h3,
+.acadp-manage-listings .acadp-listings-title-block h3 {
+	display: inline;
+	vertical-align: middle;
+}
+
+.acadp-listings .acadp-listings-desc {
+	margin: 15px 0;
+}
+
+.acadp-grid-view .acadp-listings-price {
+	margin: 15px 0 0;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Listing Detail Page
+---------------------------------------------------------------------------------------------*/
+.acadp-listing .acadp-price-block {
+	margin: 10px 0 0 0;
+}
+
+.acadp-listing .modal-header h3 {
+	display: inline-block;
+}
+
+/* Slick Slider */
+.acadp-listing #acadp-slider-wrapper {
+	margin: 15px 0 0 0;
+}
+
+.acadp-listing .acadp-slider-for,
+.acadp-listing .acadp-slider-nav {
+	display: none;
+}
+
+.acadp-listing .acadp-slider-for.slick-initialized,
+.acadp-listing .acadp-slider-nav.slick-initialized {
+	display: block;
+}
+
+.acadp-listing .acadp-slider-for {
+	cursor: zoom-in;
+}
+
+.acadp-listing .slick-loading {
+    background: #fff url('../images/spinner.gif') center center no-repeat;
+}
+
+.acadp-listing .acadp-slider-next,
+.acadp-listing .acadp-slider-prev {
+	position: absolute;
+	top: 50%;
+	padding: 5px;
+	margin-top: -12px;
+	background: #008BCF;
+	border-radius: 12px;
+	line-height: 1em;
+	opacity: .75;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.acadp-listing .acadp-slider-next:hover,
+.acadp-listing .acadp-slider-prev:hover {
+	opacity: 1;
+}
+
+.acadp-listing .acadp-slider-next {
+	right: -12px;
+}
+
+.acadp-listing .acadp-slider-prev {
+	left: -12px;
+}
+
+.acadp-listing .acadp-slider-next .glyphicon,
+.acadp-listing .acadp-slider-prev .glyphicon {
+	display: block;
+	top: 0;
+	font-size: 14px;
+	color: #fff;
+	vertical-align: middle;
+}
+
+.acadp-slider-nav .acadp-slider-item {
+	cursor: pointer;
+}
+
+.acadp-listing .acadp-slider-item-inner {
+	padding: 7px;
+}
+
+.acadp-listing .acadp-slider-item-inner img {
+	margin: auto;
+}
+
+#acadp-contact-message-display.text-danger,
+#acadp-contact-message-display.text-success {
+    margin-bottom: 10px;
+}
+
+/* Magnific Popup */
+.single-acadp_listings .mfp-wrap button:hover,
+.single-acadp_listings .mfp-wrap button:focus {
+	background: transparent;
+	box-shadow: none;
+}
+
+.single-acadp_listings .acadp-image-popup {
+	cursor: zoom-in;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Address
+---------------------------------------------------------------------------------------------*/
+.acadp-address {
+	word-wrap: break-word;
+}
+
+.acadp-address .acadp-street-address,
+.acadp-address .acadp-phone,
+.acadp-address .acadp-email,
+.acadp-address .acadp-website {
+	display: block;
+}
+
+.acadp-address .acadp-delimiter {
+	padding-right: 7px;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Image Uploader
+---------------------------------------------------------------------------------------------*/
+table.acadp-images {
+	margin-bottom: 10px;
+	border: 0 none;
+	background: #fff;
+}
+
+table.acadp-images tbody tr td {
+	padding: 5px 7px;
+	background: #fff;
+	border-top: 0 none;
+	border-bottom: 1px solid #ddd;
+	border-top: 0 none;
+}
+
+table.acadp-images .acadp-handle {
+	width: 50px;
+	color: #999;
+	vertical-align: middle;
+	cursor: move;
+}
+
+table.acadp-images .acadp-handle span {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+table.acadp-images .acadp-image {
+	width: 75px;
+	vertical-align: middle;
+	text-align:center;
+}
+
+table.acadp-images img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Social Sharing Buttons
+---------------------------------------------------------------------------------------------*/
+.acadp-social {
+    margin: 20px 0px 25px 0px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+}
+
+.acadp-social-link {
+	margin-right: 2px;
+    padding: 4px 8px;
+	border-radius: 2px;    
+    font-size: 12px;
+	color: white;	
+	text-decoration: none;  
+	line-height: 1; 
+    cursor: pointer;
+}
+ 
+.acadp-social-link:hover,
+.acadp-social-link:active {
+    color: white;
+	text-decoration: none; 
+} 
+
+.acadp-social-facebook {
+    background: #3B5997;
+}
+ 
+.acadp-social-facebook:hover,
+.acadp-social-facebook:active {
+    background: #2d4372;
+}
+
+.acadp-social-twitter {
+    background: #00aced;
+}
+ 
+.acadp-social-twitter:hover,
+.acadp-social-twitter:active {
+    background: #0084b4;
+}
+ 
+.acadp-social-linkedin {
+    background: #0077B5;
+}
+ 
+.acadp-social-linkedin:hover,
+.acadp-social-linkedin:active {
+    background: #005B8C;
+}
+ 
+.acadp-social-pinterest {
+    background: #bd081c;
+}
+ 
+.acadp-social-pinterest:hover,
+.acadp-social-pinterest:active {
+    background: #9e0718;
+}
+
+.acadp-social-whatsapp {
+	background: #25d366;
+}
+
+.acadp-social-whatsapp:hover,
+.acadp-social-whatsapp:active {
+	background: #12af0a;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Checkout
+---------------------------------------------------------------------------------------------*/
+#acadp-checkout-errors span {
+	display: block;
+}
+
+#acadp-checkout-errors span:before {
+	content: "*";
+}
+
+/*---------------------------------------------------------------------------------------------
+	Widgets
+---------------------------------------------------------------------------------------------*/
+/* ACADP Listings */
+.acadp-widget-listings .media-object {
+	width: 64px;
+}
+
+.acadp-widget-listings .acadp-listings-desc {
+	margin: 15px 0;
+}
+
+.acadp-widget-listings .acadp-listings-price {
+	margin: 15px 0 0;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Third-party theme conflicts
+---------------------------------------------------------------------------------------------*/
+.single-acadp_listings .entry-header {
+	display: none;
+}
+
+.acadp .nav {
+	float: none;
+}
+
+.acadp .btn-group .dropdown-toggle {
+	width: auto;
+}
+
+.acadp .thumbnail img {
+	box-shadow: none;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Media queries
+---------------------------------------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	.acadp .pull-left.acadp-xs-clear-float,
+	.acadp .pull-right.acadp-xs-clear-float {
+		display: block;        
+		float: none !important;
+		clear: both;
+	}
+
+	.acadp-search-inline .row .form-group {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.acadp-list-view img {
+		width: 100%;
+	}
+	
+	.acadp-list-view .acadp-listings-title-block {
+		margin-top: 10px;
+	}
+	
+	.acadp-list-view .acadp-price-block {
+		text-align: left;
+		margin: 15px 0;
+	}
+}

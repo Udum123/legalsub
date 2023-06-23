@@ -1,0 +1,46 @@
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => udum.chizindu123@gmail.com
+                        )
+
+                    [subject] => [Legal Spiel] Listing "listingform" published
+                    [message] => Dear udum23,<br />
+<br />
+Your listing "listingform" is now available at <a href="http://localhost/legalsub/index.php/acadp_listings/listingform/">http://localhost/legalsub/index.php/acadp_listings/listingform/</a> and can be viewed by the public.<br />
+<br />
+Thanks,<br />
+The Administrator of Legal Spiel
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+

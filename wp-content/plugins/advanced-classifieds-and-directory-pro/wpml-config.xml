@@ -1,0 +1,133 @@
+<wpml-config>    
+    <custom-fields>
+        <custom-field action="copy-once">never_expires</custom-field>
+        <custom-field action="copy-once">expiry_date</custom-field>
+        <custom-field action="copy-once">featured</custom-field>
+        <custom-field action="copy-once">sold</custom-field>
+        <custom-field action="copy-once">listing_status</custom-field>
+        <custom-field action="copy-once">price</custom-field> 
+        <custom-field action="copy-once">views</custom-field> 
+        <custom-field action="copy-once">address</custom-field>
+        <custom-field action="copy-once">zipcode</custom-field>
+        <custom-field action="copy-once">phone</custom-field>
+        <custom-field action="copy-once">email</custom-field>
+        <custom-field action="copy-once">website</custom-field>
+        <custom-field action="copy-once">latitude</custom-field>
+        <custom-field action="copy-once">longitude</custom-field>
+        <custom-field action="copy-once">hide_map</custom-field> 
+        <custom-field action="copy-once">images</custom-field>   
+        <custom-field action="copy-once">video</custom-field> 
+        <custom-field action="copy-once">renewal_reminder_sent</custom-field> 
+        <custom-field action="copy-once">deletion_date</custom-field> 
+        <custom-field action="copy-once">fee_plan_id</custom-field>
+        <custom-field action="copy-once">wc_plan_id</custom-field> 
+        <custom-field action="copy-once">type</custom-field>                    
+        <custom-field action="copy-once">instructions</custom-field>
+        <custom-field action="copy-once">required</custom-field>
+        <custom-field action="copy-once">choices</custom-field> 
+        <custom-field action="copy-once">default_value</custom-field>
+        <custom-field action="copy-once">min</custom-field> 
+        <custom-field action="copy-once">max</custom-field> 
+        <custom-field action="copy-once">step</custom-field>
+        <custom-field action="copy-once">allow_null</custom-field>  
+        <custom-field action="copy-once">placeholder</custom-field> 
+        <custom-field action="copy-once">rows</custom-field> 
+        <custom-field action="copy-once">target</custom-field> 
+        <custom-field action="copy-once">nofollow</custom-field> 
+        <custom-field action="copy-once">associate</custom-field> 
+        <custom-field action="copy-once">searchable</custom-field> 
+        <custom-field action="copy-once">type_search</custom-field>
+        <custom-field action="copy-once">listings_archive</custom-field> 
+        <custom-field action="copy-once">order</custom-field> 
+        <custom-field action="copy-once">listing_duration</custom-field> 
+        <custom-field action="copy-once">is_acadp_subscription</custom-field> 
+        <custom-field action="copy-once">acadp_listings_limit</custom-field> 
+        <custom-field action="copy-once">acadp_listing_duration</custom-field> 
+        <custom-field action="copy-once">acadp_images_limit</custom-field> 
+        <custom-field action="copy-once">acadp_featured</custom-field> 
+        <custom-field action="copy-once">acadp_categories</custom-field> 
+        <custom-field action="copy-once">acadp_disable_repeat_purchase</custom-field> 
+    </custom-fields>
+    <custom-term-fields>
+        <custom-term-field action="copy-once">image</custom-term-field>
+    </custom-term-fields>
+    <admin-texts>
+        <key name="acadp_badges_settings">
+            <key name="new_listing_label"/>
+            <key name="popular_listing_label"/>
+            <key name="sold_listing_label"/>
+        </key>
+        <key name="acadp_terms_of_agreement">
+            <key name="agree_label"/>
+            <key name="agree_text"/>
+        </key>
+        <key name="acadp_privacy_policy">
+            <key name="privacy_policy_label"/>
+            <key name="privacy_policy_text"/>
+        </key>
+        <key name="acadp_cookie_consent">
+            <key name="consent_button_label"/>
+            <key name="consent_message"/>
+        </key>
+        <key name="acadp_featured_listing_settings">
+            <key name="label"/>
+            <key name="description"/>
+        </key>
+        <key name="acadp_fee_plans_settings">
+            <key name="label"/>
+            <key name="description"/>
+        </key>
+        <key name="acadp_gateway_offline_settings">
+            <key name="label"/>
+            <key name="description"/>
+            <key name="instructions"/>
+        </key>
+        <key name="acadp_gateway_paypal_settings">
+            <key name="label"/>
+            <key name="description"/>
+        </key>
+        <key name="acadp_gateway_stripe_settings">
+            <key name="label"/>
+            <key name="description"/>
+        </key>
+        <key name="acadp_email_settings">
+            <key name="from_name"/>
+        </key>
+        <key name="acadp_email_template_listing_submitted">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_listing_published">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_listing_renewal">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_listing_expired">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_renewal_reminder">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_order_created">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_order_created_offline">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_order_completed">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+        <key name="acadp_email_template_listing_contact">
+            <key name="subject"/>
+            <key name="body"/>
+        </key>
+    </admin-texts>
+</wpml-config>

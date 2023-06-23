@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "acadp/locations",
+	"version": "2.0.0",
+	"title": "ACADP - Locations",
+	"category": "advanced-classifieds-and-directory-pro",
+	"keywords": [ "classifieds", "listings", "directory", "acadp" ],
+	"icon": "location-alt",
+	"description": "Display a list of ACADP Locations.",
+	"textdomain": "advanced-classifieds-and-directory-pro",
+	"editorScript": "file:./index.js"
+}
